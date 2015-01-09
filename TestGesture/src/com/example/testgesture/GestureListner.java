@@ -28,7 +28,7 @@ public class GestureListner extends GestureDetector.SimpleOnGestureListener{
      public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
          currentGestureDetected=e1.toString()+ "  "+e2.toString();
          
-         
+        // hello
         
     
        return true;
